@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="container">
+        <div class="header">
+            <div id="searchbox">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="city" placeholder="Search your city...">
+                <button id="mainbtn">Search</button>
+            </div>
+        </div>
+        <div class="body">
+            <h1 class="cityname"></h1>
+            <p class="date"></p>
+            <div class="data">
+                <p class="forecast"> </p>
+                <div class="icon"></div>
+            </div>
+            <h1 class="temperature">298 &deg;</h1>
+            <div class="minmax">
+                <p class="min">Min : </p>
+                <p class="max">Max : </p>
+            </div>
+        </div>
+
+        <section class="info">
+            <div class="box">
+                <i class="fa-solid fa-temperature-three-quarters"></i>
+                <div class="pro">
+                    <p class="p">Feels like</p>
+                    <p id="feelslike">15 &deg;</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-droplet"></i>
+                <div class="pro">
+                    <p class="p">Humidity</p>
+                    <p id="humidity">18 &deg;</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-wind"></i>
+                <div class="pro">
+                    <p class="p">Wind</p>
+                    <p id="wind">21 &deg;</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-gauge-high"></i>
+                <div class="pro">
+                   <b> <p class="p">Pressure</p></b>
+                    <p id="pressure">27 &deg;</p>
+                </div>
+            </div>
+        </section>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
